@@ -1,0 +1,38 @@
+{
+	"info": {
+		"_postman_id": "21a1cfd4-fa65-4786-bf82-d00ac274c4a4",
+		"name": "thecodeschool",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8081/publish",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"message\": \"This is my fifth message\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8081/publish",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"publish"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
