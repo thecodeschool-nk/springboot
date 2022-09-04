@@ -13,7 +13,7 @@ import java.util.Optional;
 public class StudentController {
     private List<Student> students = new ArrayList<Student>();
 
-    @GetMapping
+    @RequestMapping()
     public List<Student> getStudentDetails() {
 
         return students;
