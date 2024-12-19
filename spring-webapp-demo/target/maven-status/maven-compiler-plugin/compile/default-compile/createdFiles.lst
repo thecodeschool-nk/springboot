@@ -1,0 +1,6 @@
+main/java/com/thecodeschool/springweb/service/TodoService.class
+main/java/com/thecodeschool/springweb/model/Todo.class
+main/java/com/thecodeschool/springweb/controller/TodoController.class
+com/thecodeschool/springweb/SpringWebDemoApplication.class
+main/java/com/thecodeschool/springweb/controller/LoginController.class
+main/java/com/thecodeschool/springweb/service/LoginService.class
